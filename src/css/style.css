@@ -1,0 +1,64 @@
+:root {
+  --header-color: #edeae7;
+  --body-color: #F3F5FC;
+  --card-color: #94ddde;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--body-color);
+}
+
+header {
+  background: var(--header-color);
+  /* border: 1.6px solid black; */
+  border-radius: 10px;
+  margin: 25px;
+}
+
+img {
+  padding: 15px;
+  width: 12%;
+}
+
+.align__cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: var(--card-color);
+  box-shadow: 3px 5px 5px #4b4a4a;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  box-shadow: 1px soplid black;
+
+  padding: 20px;
+  margin: 25px;
+  width: 500px;
+  height: 300px;
+
+}
+
+.card__result {
+  background-color: var(--card-color);
+  box-shadow: 3px 5px 5px #4b4a4a;
+  border-radius: 10px;
+  box-shadow: 1px soplid black;
+
+  padding: 20px;
+  margin: 25px;
+  width: 500px;
+  height: 300px;
+}
+
+#decode {
+  width: 200px;
+}
